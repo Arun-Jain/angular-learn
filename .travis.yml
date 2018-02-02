@@ -4,11 +4,11 @@ node_js:
   - node
 
 addons:
-apt:
-  sources:
-    - google-chrome
-  packages:
-    - google-chrome-stable
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
 
 before_install:
   - export CHROME_BIN=chromium-browser
@@ -22,6 +22,4 @@ script:
 - ng test -- --watch=false
 
 after_success:
-  - if [ "$TRAVIS_BRANCH" == "master" ]; then
-    ng build;
-    fi
+  - ng build
