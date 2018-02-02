@@ -25,3 +25,4 @@ after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
     ng build;
     fi
+    
