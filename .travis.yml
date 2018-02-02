@@ -19,7 +19,8 @@ before_script:
 - npm install
 
 script: 
-- npm run test -- --watch=false
+- ng test -- --watch=false
+- ng e2e
 
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
