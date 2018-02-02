@@ -7,8 +7,7 @@ branches:
     - master
 
 before_scripts:
-  - npm install -g @angular/cli
+  - npm install
 
 script:
   -ng buid
-  
