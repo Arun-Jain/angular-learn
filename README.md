@@ -1,3 +1,11 @@
+<p align="center"><img width="65%" src="src/assets/images/sample.png" /></p>
+
+------------------------------------------------------------------------------------------
+
+
+sample text
+
+
 # AngApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
